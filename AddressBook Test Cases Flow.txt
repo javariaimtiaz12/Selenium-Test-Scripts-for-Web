@@ -1,0 +1,27 @@
+Test Cases AddressBook
+-----------------------
+->TestAddNewGroup
+->TestEditGroup
+->TestAddNewPage
+->TestAddNewContact
+->TestAssignGroup
+->TestDeleteItem
+->TestPrintAll
+->TestPrintPhones
+->TestExportAllRecordCSVFile
+->TestNextBirthday
+->TestDeleteGroup
+->TestNextBirthdayModify
+->TestNextBirthdayPrint
+->TestNextBirthdayEdit
+->TestNextBirthdayDelete
+->TestHomeSearch
+->TestHomeAddToSpecific
+->TestHomeSendMailToSpecific
+->TestHomeAddToAll
+->TestCheckPhone
+->TestSearchEntry
+->TestSearchEntryByGroup
+->TestVerifyWrongEntry
+->TestAddMultipleContactEntries
+->TestaddMultipleGroups
