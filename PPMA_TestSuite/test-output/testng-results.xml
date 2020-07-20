@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="4" ignored="0" total="31" passed="27">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite (1)" duration-ms="17141" started-at="2020-06-06T12:18:05 PKT" finished-at="2020-06-06T12:18:22 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17141" started-at="2020-06-06T12:18:05 PKT" finished-at="2020-06-06T12:18:22 PKT">
+      <class name="AddEntryTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:AddEntryTestSuite@131276c2]" name="before" is-config="true" duration-ms="9205" started-at="2020-06-06T12:17:56 PKT" finished-at="2020-06-06T12:18:05 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="addEntryTestSuite()[pri:0, instance:AddEntryTestSuite@131276c2]" name="addEntryTestSuite" duration-ms="6004" started-at="2020-06-06T12:18:05 PKT" finished-at="2020-06-06T12:18:11 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEntryTestSuite -->
+        <test-method status="PASS" signature="addEntryAutoPasswordTestSuite()[pri:1, instance:AddEntryTestSuite@131276c2]" name="addEntryAutoPasswordTestSuite" duration-ms="5724" started-at="2020-06-06T12:18:11 PKT" finished-at="2020-06-06T12:18:17 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEntryAutoPasswordTestSuite -->
+        <test-method status="PASS" signature="addEntryEmptyAccountTestSuite()[pri:2, instance:AddEntryTestSuite@131276c2]" name="addEntryEmptyAccountTestSuite" duration-ms="5402" started-at="2020-06-06T12:18:17 PKT" finished-at="2020-06-06T12:18:22 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEntryEmptyAccountTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:AddEntryTestSuite@131276c2]" name="close" is-config="true" duration-ms="79" started-at="2020-06-06T12:18:22 PKT" finished-at="2020-06-06T12:18:22 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- AddEntryTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="21481" started-at="2020-06-06T12:17:34 PKT" finished-at="2020-06-06T12:17:56 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21481" started-at="2020-06-06T12:17:34 PKT" finished-at="2020-06-06T12:17:56 PKT">
+      <class name="LoginTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:LoginTestSuite@5d76b067]" name="before" is-config="true" duration-ms="5347" started-at="2020-06-06T12:17:29 PKT" finished-at="2020-06-06T12:17:34 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="loginTestSuite()[pri:0, instance:LoginTestSuite@5d76b067]" name="loginTestSuite" duration-ms="5308" started-at="2020-06-06T12:17:34 PKT" finished-at="2020-06-06T12:17:39 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestSuite -->
+        <test-method status="PASS" signature="loginNegativeUsernameTestSuite()[pri:1, instance:LoginTestSuite@5d76b067]" name="loginNegativeUsernameTestSuite" duration-ms="7125" started-at="2020-06-06T12:17:39 PKT" finished-at="2020-06-06T12:17:46 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeUsernameTestSuite -->
+        <test-method status="PASS" signature="loginNegativePasswordTestSuite()[pri:2, instance:LoginTestSuite@5d76b067]" name="loginNegativePasswordTestSuite" duration-ms="4635" started-at="2020-06-06T12:17:46 PKT" finished-at="2020-06-06T12:17:51 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativePasswordTestSuite -->
+        <test-method status="PASS" signature="loginEmptyFieldsTestSuite()[pri:3, instance:LoginTestSuite@5d76b067]" name="loginEmptyFieldsTestSuite" duration-ms="4402" started-at="2020-06-06T12:17:51 PKT" finished-at="2020-06-06T12:17:56 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEmptyFieldsTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:LoginTestSuite@5d76b067]" name="close" is-config="true" duration-ms="54" started-at="2020-06-06T12:17:56 PKT" finished-at="2020-06-06T12:17:56 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- LoginTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+  <suite name="Suite (9)" duration-ms="24124" started-at="2020-06-06T12:20:30 PKT" finished-at="2020-06-06T12:20:54 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24124" started-at="2020-06-06T12:20:30 PKT" finished-at="2020-06-06T12:20:54 PKT">
+      <class name="ImportTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:ImportTestSuite@bd8db5a]" name="before" is-config="true" duration-ms="11802" started-at="2020-06-06T12:20:18 PKT" finished-at="2020-06-06T12:20:30 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="importCsvTestSuite()[pri:0, instance:ImportTestSuite@bd8db5a]" name="importCsvTestSuite" duration-ms="10617" started-at="2020-06-06T12:20:30 PKT" finished-at="2020-06-06T12:20:41 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importCsvTestSuite -->
+        <test-method status="PASS" signature="dismissImprtCvsTestSuite()[pri:1, instance:ImportTestSuite@bd8db5a]" name="dismissImprtCvsTestSuite" duration-ms="13503" started-at="2020-06-06T12:20:41 PKT" finished-at="2020-06-06T12:20:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dismissImprtCvsTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:ImportTestSuite@bd8db5a]" name="close" is-config="true" duration-ms="93" started-at="2020-06-06T12:20:54 PKT" finished-at="2020-06-06T12:20:55 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ImportTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (9) -->
+  <suite name="Suite (8)" duration-ms="597" started-at="2020-06-06T12:20:18 PKT" finished-at="2020-06-06T12:20:18 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="597" started-at="2020-06-06T12:20:18 PKT" finished-at="2020-06-06T12:20:18 PKT">
+      <class name="ExportCsvTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:ExportCsvTestSuite@30a3107a]" name="before" is-config="true" duration-ms="10606" started-at="2020-06-06T12:20:07 PKT" finished-at="2020-06-06T12:20:18 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="exportCsvTestSuite()[pri:0, instance:ExportCsvTestSuite@30a3107a]" name="exportCsvTestSuite" duration-ms="583" started-at="2020-06-06T12:20:18 PKT" finished-at="2020-06-06T12:20:18 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exportCsvTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:ExportCsvTestSuite@30a3107a]" name="close" is-config="true" duration-ms="197" started-at="2020-06-06T12:20:18 PKT" finished-at="2020-06-06T12:20:18 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ExportCsvTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (8) -->
+  <suite name="Suite (7)" duration-ms="5353" started-at="2020-06-06T12:20:02 PKT" finished-at="2020-06-06T12:20:07 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5353" started-at="2020-06-06T12:20:02 PKT" finished-at="2020-06-06T12:20:07 PKT">
+      <class name="DeleteEntryTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:DeleteEntryTestSuite@458c1321]" name="before" is-config="true" duration-ms="10035" started-at="2020-06-06T12:19:51 PKT" finished-at="2020-06-06T12:20:02 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="deleteEntryTestSuite()[pri:0, instance:DeleteEntryTestSuite@458c1321]" name="deleteEntryTestSuite" duration-ms="5350" started-at="2020-06-06T12:20:02 PKT" finished-at="2020-06-06T12:20:07 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEntryTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:DeleteEntryTestSuite@458c1321]" name="close" is-config="true" duration-ms="188" started-at="2020-06-06T12:20:07 PKT" finished-at="2020-06-06T12:20:07 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DeleteEntryTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (7) -->
+  <suite name="Suite (6)" duration-ms="19482" started-at="2020-06-06T12:19:32 PKT" finished-at="2020-06-06T12:19:51 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19482" started-at="2020-06-06T12:19:32 PKT" finished-at="2020-06-06T12:19:51 PKT">
+      <class name="EditEntryTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:EditEntryTestSuite@76f2b07d]" name="before" is-config="true" duration-ms="10430" started-at="2020-06-06T12:19:21 PKT" finished-at="2020-06-06T12:19:32 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="editEntryTestSuite()[pri:0, instance:EditEntryTestSuite@76f2b07d]" name="editEntryTestSuite" duration-ms="12424" started-at="2020-06-06T12:19:32 PKT" finished-at="2020-06-06T12:19:44 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editEntryTestSuite -->
+        <test-method status="PASS" signature="dismissEditEntryTestSuite()[pri:1, instance:EditEntryTestSuite@76f2b07d]" name="dismissEditEntryTestSuite" duration-ms="7052" started-at="2020-06-06T12:19:44 PKT" finished-at="2020-06-06T12:19:51 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dismissEditEntryTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:EditEntryTestSuite@76f2b07d]" name="close" is-config="true" duration-ms="73" started-at="2020-06-06T12:19:51 PKT" finished-at="2020-06-06T12:19:51 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- EditEntryTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (6) -->
+  <suite name="Suite (5)" duration-ms="4132" started-at="2020-06-06T12:19:17 PKT" finished-at="2020-06-06T12:19:21 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4132" started-at="2020-06-06T12:19:17 PKT" finished-at="2020-06-06T12:19:21 PKT">
+      <class name="ViewEntryDetailTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:ViewEntryDetailTestSuite@3712b94]" name="before" is-config="true" duration-ms="12317" started-at="2020-06-06T12:19:05 PKT" finished-at="2020-06-06T12:19:17 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="viewEntryDetailTestSuite()[pri:0, instance:ViewEntryDetailTestSuite@3712b94]" name="viewEntryDetailTestSuite" duration-ms="4128" started-at="2020-06-06T12:19:17 PKT" finished-at="2020-06-06T12:19:21 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewEntryDetailTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:ViewEntryDetailTestSuite@3712b94]" name="close" is-config="true" duration-ms="166" started-at="2020-06-06T12:19:21 PKT" finished-at="2020-06-06T12:19:21 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ViewEntryDetailTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (5) -->
+  <suite name="Suite (4)" duration-ms="3966" started-at="2020-06-06T12:19:01 PKT" finished-at="2020-06-06T12:19:05 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3966" started-at="2020-06-06T12:19:01 PKT" finished-at="2020-06-06T12:19:05 PKT">
+      <class name="SeeEntryPasswordTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:SeeEntryPasswordTestSuite@53f65459]" name="before" is-config="true" duration-ms="11066" started-at="2020-06-06T12:18:50 PKT" finished-at="2020-06-06T12:19:01 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="seeEntryPasswordTestSuite()[pri:0, instance:SeeEntryPasswordTestSuite@53f65459]" name="seeEntryPasswordTestSuite" duration-ms="3962" started-at="2020-06-06T12:19:01 PKT" finished-at="2020-06-06T12:19:05 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeEntryPasswordTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:SeeEntryPasswordTestSuite@53f65459]" name="close" is-config="true" duration-ms="146" started-at="2020-06-06T12:19:05 PKT" finished-at="2020-06-06T12:19:05 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- SeeEntryPasswordTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (4) -->
+  <suite name="allSuites" duration-ms="0" started-at="2020-06-06T12:22:38 PKT" finished-at="2020-06-06T12:22:38 PKT">
+    <groups>
+    </groups>
+  </suite> <!-- allSuites -->
+  <suite name="Suite (3)" duration-ms="526" started-at="2020-06-06T12:18:49 PKT" finished-at="2020-06-06T12:18:49 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="526" started-at="2020-06-06T12:18:49 PKT" finished-at="2020-06-06T12:18:49 PKT">
+      <class name="SearchEntryTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:SearchEntryTestSuite@5a1c0542]" name="before" is-config="true" duration-ms="11320" started-at="2020-06-06T12:18:38 PKT" finished-at="2020-06-06T12:18:49 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="searchEntryTestSuite()[pri:0, instance:SearchEntryTestSuite@5a1c0542]" name="searchEntryTestSuite" duration-ms="520" started-at="2020-06-06T12:18:49 PKT" finished-at="2020-06-06T12:18:49 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEntryTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:SearchEntryTestSuite@5a1c0542]" name="close" is-config="true" duration-ms="143" started-at="2020-06-06T12:18:50 PKT" finished-at="2020-06-06T12:18:50 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- SearchEntryTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (3) -->
+  <suite name="Suite (2)" duration-ms="6272" started-at="2020-06-06T12:18:31 PKT" finished-at="2020-06-06T12:18:37 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6272" started-at="2020-06-06T12:18:31 PKT" finished-at="2020-06-06T12:18:37 PKT">
+      <class name="DismissAddEntryTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:DismissAddEntryTestSuite@2d6eabae]" name="before" is-config="true" duration-ms="9137" started-at="2020-06-06T12:18:22 PKT" finished-at="2020-06-06T12:18:31 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="dismissAddEntryTestSuite()[pri:0, instance:DismissAddEntryTestSuite@2d6eabae]" name="dismissAddEntryTestSuite" duration-ms="6267" started-at="2020-06-06T12:18:31 PKT" finished-at="2020-06-06T12:18:37 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dismissAddEntryTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:DismissAddEntryTestSuite@2d6eabae]" name="close" is-config="true" duration-ms="200" started-at="2020-06-06T12:18:37 PKT" finished-at="2020-06-06T12:18:38 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- DismissAddEntryTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (2) -->
+  <suite name="Suite" duration-ms="33808" started-at="2020-06-06T12:16:55 PKT" finished-at="2020-06-06T12:17:28 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33808" started-at="2020-06-06T12:16:55 PKT" finished-at="2020-06-06T12:17:28 PKT">
+      <class name="SignupTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:SignupTestSuite@5ae63ade]" name="before" is-config="true" duration-ms="8324" started-at="2020-06-06T12:16:46 PKT" finished-at="2020-06-06T12:16:55 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="signUpTestSuite()[pri:0, instance:SignupTestSuite@5ae63ade]" name="signUpTestSuite" duration-ms="6635" started-at="2020-06-06T12:16:55 PKT" finished-at="2020-06-06T12:17:01 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTestSuite -->
+        <test-method status="PASS" signature="signUpEmptyUserNameTestSuite()[pri:1, instance:SignupTestSuite@5ae63ade]" name="signUpEmptyUserNameTestSuite" duration-ms="5857" started-at="2020-06-06T12:17:01 PKT" finished-at="2020-06-06T12:17:07 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpEmptyUserNameTestSuite -->
+        <test-method status="PASS" signature="signUpEmptyPasswordTestSuite()[pri:2, instance:SignupTestSuite@5ae63ade]" name="signUpEmptyPasswordTestSuite" duration-ms="5144" started-at="2020-06-06T12:17:07 PKT" finished-at="2020-06-06T12:17:12 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpEmptyPasswordTestSuite -->
+        <test-method status="PASS" signature="signUpEmptyConfirmPasswordTestSuite()[pri:3, instance:SignupTestSuite@5ae63ade]" name="signUpEmptyConfirmPasswordTestSuite" duration-ms="5003" started-at="2020-06-06T12:17:12 PKT" finished-at="2020-06-06T12:17:17 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpEmptyConfirmPasswordTestSuite -->
+        <test-method status="PASS" signature="signUpEmptyEmailTestSuite()[pri:4, instance:SignupTestSuite@5ae63ade]" name="signUpEmptyEmailTestSuite" duration-ms="5414" started-at="2020-06-06T12:17:17 PKT" finished-at="2020-06-06T12:17:23 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpEmptyEmailTestSuite -->
+        <test-method status="PASS" signature="signUpWrongPasswordTestSuite()[pri:5, instance:SignupTestSuite@5ae63ade]" name="signUpWrongPasswordTestSuite" duration-ms="5628" started-at="2020-06-06T12:17:23 PKT" finished-at="2020-06-06T12:17:28 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpWrongPasswordTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:SignupTestSuite@5ae63ade]" name="close" is-config="true" duration-ms="97" started-at="2020-06-06T12:17:29 PKT" finished-at="2020-06-06T12:17:29 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- SignupTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (13)" duration-ms="17789" started-at="2020-06-06T12:22:04 PKT" finished-at="2020-06-06T12:22:22 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17789" started-at="2020-06-06T12:22:04 PKT" finished-at="2020-06-06T12:22:22 PKT">
+      <class name="ChangePasswordTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:ChangePasswordTestSuite@9a7504c]" name="before" is-config="true" duration-ms="10027" started-at="2020-06-06T12:21:54 PKT" finished-at="2020-06-06T12:22:04 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="changePasswordDismissTestSuite()[pri:0, instance:ChangePasswordTestSuite@9a7504c]" name="changePasswordDismissTestSuite" duration-ms="6094" started-at="2020-06-06T12:22:04 PKT" finished-at="2020-06-06T12:22:10 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordDismissTestSuite -->
+        <test-method status="FAIL" signature="changePasswordTestSuite()[pri:1, instance:ChangePasswordTestSuite@9a7504c]" name="changePasswordTestSuite" duration-ms="11684" started-at="2020-06-06T12:22:10 PKT" finished-at="2020-06-06T12:22:22 PKT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Change Password Successfully! Please login with your new password again.] but found [Incorrect Old Password!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Change Password Successfully! Please login with your new password again.] but found [Incorrect Old Password!]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at ChangePasswordTestSuite.changePasswordTestSuite(ChangePasswordTestSuite.java:69)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePasswordTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:ChangePasswordTestSuite@9a7504c]" name="close" is-config="true" duration-ms="74" started-at="2020-06-06T12:22:22 PKT" finished-at="2020-06-06T12:22:22 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- ChangePasswordTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (13) -->
+  <suite name="Suite (14)" duration-ms="3240" started-at="2020-06-06T12:22:34 PKT" finished-at="2020-06-06T12:22:37 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3240" started-at="2020-06-06T12:22:34 PKT" finished-at="2020-06-06T12:22:37 PKT">
+      <class name="SetPinTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:SetPinTestSuite@23d2a7e8]" name="before" is-config="true" duration-ms="11771" started-at="2020-06-06T12:22:22 PKT" finished-at="2020-06-06T12:22:34 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="FAIL" signature="setPinDismissTestSuite()[pri:0, instance:SetPinTestSuite@23d2a7e8]" name="setPinDismissTestSuite" duration-ms="1092" started-at="2020-06-06T12:22:34 PKT" finished-at="2020-06-06T12:22:35 PKT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pwdtable"]/a[2]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-U8C4O66', ip: '192.168.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sulem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5740eaaf13f3b9a4984bbd25bf012bf3
+*** Element info: {Using=xpath, value=//*[@id="pwdtable"]/a[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pwdtable"]/a[2]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-U8C4O66', ip: '192.168.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sulem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5740eaaf13f3b9a4984bbd25bf012bf3
+*** Element info: {Using=xpath, value=//*[@id="pwdtable"]/a[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at SetPinTestSuite.setPinDismissTestSuite(SetPinTestSuite.java:71)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPinDismissTestSuite -->
+        <test-method status="FAIL" signature="setPinDeleteTestSuite()[pri:1, instance:SetPinTestSuite@23d2a7e8]" name="setPinDeleteTestSuite" duration-ms="1062" started-at="2020-06-06T12:22:35 PKT" finished-at="2020-06-06T12:22:36 PKT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pwdtable"]/a[2]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-U8C4O66', ip: '192.168.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sulem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5740eaaf13f3b9a4984bbd25bf012bf3
+*** Element info: {Using=xpath, value=//*[@id="pwdtable"]/a[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pwdtable"]/a[2]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-U8C4O66', ip: '192.168.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sulem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5740eaaf13f3b9a4984bbd25bf012bf3
+*** Element info: {Using=xpath, value=//*[@id="pwdtable"]/a[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at SetPinTestSuite.setPinDeleteTestSuite(SetPinTestSuite.java:90)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPinDeleteTestSuite -->
+        <test-method status="FAIL" signature="setPinTestSuite()[pri:2, instance:SetPinTestSuite@23d2a7e8]" name="setPinTestSuite" duration-ms="1070" started-at="2020-06-06T12:22:36 PKT" finished-at="2020-06-06T12:22:37 PKT">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pwdtable"]/a[2]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-U8C4O66', ip: '192.168.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sulem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5740eaaf13f3b9a4984bbd25bf012bf3
+*** Element info: {Using=xpath, value=//*[@id="pwdtable"]/a[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="pwdtable"]/a[2]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'DESKTOP-U8C4O66', ip: '192.168.10.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\sulem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5740eaaf13f3b9a4984bbd25bf012bf3
+*** Element info: {Using=xpath, value=//*[@id="pwdtable"]/a[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at SetPinTestSuite.setPinTestSuite(SetPinTestSuite.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPinTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:SetPinTestSuite@23d2a7e8]" name="close" is-config="true" duration-ms="108" started-at="2020-06-06T12:22:37 PKT" finished-at="2020-06-06T12:22:37 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- SetPinTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (14) -->
+  <suite name="Suite (10)" duration-ms="18592" started-at="2020-06-06T12:21:04 PKT" finished-at="2020-06-06T12:21:23 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18592" started-at="2020-06-06T12:21:04 PKT" finished-at="2020-06-06T12:21:23 PKT">
+      <class name="BackupTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:BackupTestSuite@2a742aa2]" name="before" is-config="true" duration-ms="9920" started-at="2020-06-06T12:20:55 PKT" finished-at="2020-06-06T12:21:04 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="backupTestSuite()[pri:0, instance:BackupTestSuite@2a742aa2]" name="backupTestSuite" duration-ms="18589" started-at="2020-06-06T12:21:04 PKT" finished-at="2020-06-06T12:21:23 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backupTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:BackupTestSuite@2a742aa2]" name="close" is-config="true" duration-ms="708" started-at="2020-06-06T12:21:23 PKT" finished-at="2020-06-06T12:21:24 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- BackupTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (10) -->
+  <suite name="Suite (11)" duration-ms="5341" started-at="2020-06-06T12:21:34 PKT" finished-at="2020-06-06T12:21:40 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5341" started-at="2020-06-06T12:21:34 PKT" finished-at="2020-06-06T12:21:40 PKT">
+      <class name="LogoutTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:LogoutTestSuite@6f195bc3]" name="before" is-config="true" duration-ms="10605" started-at="2020-06-06T12:21:24 PKT" finished-at="2020-06-06T12:21:34 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="logoutTestSuite()[pri:0, instance:LogoutTestSuite@6f195bc3]" name="logoutTestSuite" duration-ms="5338" started-at="2020-06-06T12:21:34 PKT" finished-at="2020-06-06T12:21:40 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:LogoutTestSuite@6f195bc3]" name="close" is-config="true" duration-ms="99" started-at="2020-06-06T12:21:40 PKT" finished-at="2020-06-06T12:21:40 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- LogoutTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (11) -->
+  <suite name="Suite (12)" duration-ms="4499" started-at="2020-06-06T12:21:50 PKT" finished-at="2020-06-06T12:21:54 PKT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="4499" started-at="2020-06-06T12:21:50 PKT" finished-at="2020-06-06T12:21:54 PKT">
+      <class name="UntrustTestSuite">
+        <test-method status="PASS" signature="before()[pri:0, instance:UntrustTestSuite@36b4cef0]" name="before" is-config="true" duration-ms="9762" started-at="2020-06-06T12:21:40 PKT" finished-at="2020-06-06T12:21:50 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="untrustTestSuite()[pri:0, instance:UntrustTestSuite@36b4cef0]" name="untrustTestSuite" duration-ms="4497" started-at="2020-06-06T12:21:50 PKT" finished-at="2020-06-06T12:21:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- untrustTestSuite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:UntrustTestSuite@36b4cef0]" name="close" is-config="true" duration-ms="111" started-at="2020-06-06T12:21:54 PKT" finished-at="2020-06-06T12:21:54 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- UntrustTestSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (12) -->
+</testng-results>

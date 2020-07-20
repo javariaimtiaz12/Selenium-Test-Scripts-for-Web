@@ -1,0 +1,20 @@
+<suite name="allSuites">
+  <suite-files>
+    <suite-file path="signuptestsuite.xml" />
+    <suite-file path="logintestsuite.xml" />
+    <suite-file path="addentrytestsuite.xml" />
+    <suite-file path="dismissaddentry.xml" />
+    <suite-file path="searchentrytestsuite.xml" />
+    <suite-file path="seeentrypassword.xml" />
+    <suite-file path="viewentrydetail.xml" />
+    <suite-file path="editentry.xml" />
+    <suite-file path="deleteentry.xml" />
+    <suite-file path="exportcsv.xml" />
+    <suite-file path="importcsv.xml" />
+    <suite-file path="backup.xml" />
+    <suite-file path="logouttestsuite.xml" />
+    <suite-file path="untrusttestsuite.xml" />
+    <suite-file path="changepassword.xml" />
+    <suite-file path="setpin.xml" />
+  </suite-files>
+</suite>
